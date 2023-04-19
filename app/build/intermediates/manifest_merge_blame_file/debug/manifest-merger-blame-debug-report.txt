@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dateclassification"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:5:5-64
+11-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:5:22-62
+12
+13    <application
+13-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:7:5-25:19
+14        android:allowBackup="true"
+14-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\hp\.gradle\caches\transforms-3\0212d0c0c0b99c5d00c15a82a811f4d1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:9:9-65
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:10:9-54
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:11:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:12:9-41
+22        android:supportsRtl="true"
+22-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.DateClassification" >
+24-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:14:9-56
+25        <activity
+25-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:16:9-24:20
+26            android:name="com.example.dateclassification.MainActivity"
+26-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:17:13-41
+27            android:exported="true" >
+27-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:18:13-36
+28            <intent-filter>
+28-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:20:17-69
+29-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:22:17-77
+31-->C:\Users\hp\AndroidStudioProjects\DateClassification\app\src\main\AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+36            android:name="androidx.startup.InitializationProvider"
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+37            android:authorities="com.example.dateclassification.androidx-startup"
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+38            android:exported="false" >
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+39            <meta-data
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+40                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+41                android:value="androidx.startup" />
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+42            <meta-data
+42-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hp\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+43                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+43-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hp\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+44                android:value="androidx.startup" />
+44-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hp\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+45        </provider>
+46    </application>
+47
+48</manifest>
