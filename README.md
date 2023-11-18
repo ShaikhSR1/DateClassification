@@ -73,6 +73,20 @@ This ‘TensorFlow Lite’ model will be imported into mobile application for on
 ### Performance of model 3
 ![Performance 3](https://github.com/ShaikhSR1/DateClassification/blob/Editing/ProjectReport/Performance%20Graph%203.png)
 
+The model has 8 layers:
+- rescaling 1: This layer rescales the input images to a range of [0, 1].
+-  conv2d: This layer performs a 2D convolution operation on the input images. It has 16 filters of size 3x3.
+- max_pooling2d: This layer performs max pooling on the output of the previous layer. It has a pool size of 2x2.
+- conv2d 1: This layer is similar to the first conv2d layer, but it has 32 filters.
+- max_pooling2d 1: This layer is similar to the first max_pooling2d layer.
+- conv2d_2: This layer is similar to the second conv2d layer, but it has 64 filters.
+- max_pooling2d 2: This layer is similar to the second max_pooling2d layer.
+- flatten: This layer flattens the output of the previous layer into a 1D vector.
+- dense: This layer is a fully connected layer with 128 units.
+- dense 1: This layer is a fully connected layer with 9 units. This is the output layer of the model.
+The model has 3,989,801 trainable parameters. This is a fairly large model, so it is likely to be able to learn complex patterns in the data.
+
+
 # Motivation
 
 Date Fruit is also very popular in Bangladesh. In Bangladesh, date fruit categorization is significant because it helps to ensure that customers have access to high-quality date fruits that fulfil particular standards for safety, quality, and freshness. These standards have been established by the government. The categorization of date fruits entails evaluating the fruits according to their size, colour, texture, and other features. This helps to assess the fruits' market worth and whether or not they are suitable for a variety of uses.
